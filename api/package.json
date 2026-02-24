@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "npx playwright show-report",
+    "start": "npm install"
+  },
+  "keywords": [],
+  "author": "Marcin Kiklica",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.0"
+  }
+}
