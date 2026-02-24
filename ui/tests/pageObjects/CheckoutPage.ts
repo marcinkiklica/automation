@@ -1,11 +1,11 @@
-import test from "@playwright/test";
+import test, { Page } from "@playwright/test";
 import { BasePage } from "./BasePage";
 import { CheckoutPageLocators } from "./locators/CheckoutPageLocators";
 
 export class CheckoutPage extends BasePage  {
   readonly checkoutPageLocators: CheckoutPageLocators;
   
-  constructor(page: any) {
+  constructor(page: Page) {
     super(page);
     this.checkoutPageLocators = new CheckoutPageLocators(page);
   }

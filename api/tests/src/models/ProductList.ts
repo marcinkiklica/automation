@@ -13,7 +13,7 @@ export class ProductList {
       : [];
   }
 
-  async getCount(): Promise<number> {
+  getCount(): number {
     return this.products.length;
   }
 

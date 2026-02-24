@@ -1,8 +1,7 @@
-import { Page } from "@playwright/test";
+import { Page, test } from "@playwright/test";
 import { BasePage } from "./BasePage";
 import { User } from "./data/User";
 import { LoginPageLocators } from "./locators/LoginPageLocators";
-import { test } from "../fixures";
 
 export class LoginPage extends BasePage {
   readonly loginPageLocators: LoginPageLocators;

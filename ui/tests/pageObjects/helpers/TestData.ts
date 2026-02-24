@@ -53,7 +53,7 @@ export class TestData {
   }
 
   private getSingleUser(username: string): User {
-    const singleUser = this.userList.find((user: any) => user.username === username);
+    const singleUser = this.userList.find((user: User) => user.username === username);
     if (singleUser) {
       return new User(singleUser.username, singleUser.login, singleUser.password);
     }

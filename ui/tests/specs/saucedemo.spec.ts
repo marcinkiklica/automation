@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-import { test } from '../fixures';
+import { test } from '../Fixtures';
 import { Item } from '../pageObjects/data/Item';
 
 test.describe('Standard User Tests', () => {

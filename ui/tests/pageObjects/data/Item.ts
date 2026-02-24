@@ -11,7 +11,7 @@ export class Item {
     this.price = price;
   }
   
-  async toString(): Promise<string> {
+  toString(): string {
     return `name: ${this.name}, Description: ${this.description}, Price: ${this.price}`;
   }
 }
