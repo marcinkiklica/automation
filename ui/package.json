@@ -7,10 +7,10 @@
     "test": "npx playwright test",
     "test-headed": "npx playwright test --headed",
     "report": "npx playwright show-report",
-    "start": "npm install && npx playwright install"
+    "start": "npm install && npx playwright install chromium"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marcin Kiklica",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.58.2",
